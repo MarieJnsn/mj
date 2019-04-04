@@ -1,0 +1,207 @@
+body{
+  background: rgb(245,245,245);
+  color: black;
+  font-size: 15px;
+  font-family: 'Roboto', serif;
+
+}
+h1{
+  font-family: 'Handlee', cursive;
+  color: white;
+  font-weight: bolder;
+  font-size: 80px;
+}
+
+h2 {
+  font-family: 'Handlee', cursive;
+  color: black;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'Roboto', serif;
+  font-size: 22px;
+  color: black;
+}
+
+h4 {
+  font-family: 'Roboto', serif;
+  font-size: 18px;
+  color: black;
+}
+
+
+#nav a {
+  text-decoration: none;
+}
+
+#nav nav {
+    font-family: 'Roboto', serif;
+}
+
+#nav ul {
+  background: #333;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+#nav li {
+    color: white;
+  background: #333;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+  transition-duration: 0.4s;
+}
+  
+#nav li a {
+  color: white;
+}
+
+#nav li:hover {
+    background: lightgrey;
+    cursor: pointer;
+}
+
+#nav ul li ul {
+    background: #333;
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.4s ease;
+  margin-top: 1rem;
+    left: 0;
+  display: none;
+}
+
+#nav ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+#nav ul li ul li {
+    clear: both;
+  width: 100%;
+}
+
+#banner {
+  text-align: center;
+  background-image:url("Images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  color: white;
+  height: 100%
+  width: 100%;
+}
+
+#banner p {
+font-size: 20px;
+}
+
+.btn-contact {
+   color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  background: #216869;
+}
+
+.btn-contact:hover {
+  opacity: 0.8;
+  background: #216869;
+  text-decoration: none;
+  color: white;
+  transition: all, 0.4, ease;
+}
+
+#titre {
+  margin-left: 160px;
+  padding-top: 40px; 
+  padding-bottom: 40px;
+}
+
+.row {
+  padding-bottom: 70px;
+}
+
+.card-ren {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+  max-height: 300px;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  height:400px;
+  margin-bottom: 170px;
+  padding-top: 16px;
+} 
+
+.flex-item {
+  flex: 0 0 50%;
+  box-sizing:border-box;
+}
+
+#item2 {
+  padding-left:5%;
+  text-align: justify;
+}
+
+.flex-item img {
+  max-width:100%;
+
+}
+
+#carte {
+  width:100%;
+  height:400px;
+  margin-bottom: 120px;
+}
+
+.card-peintres {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+  max-height: 440px;
+}
+
+.card-peintres img {
+  width:100%;
+  max-height: 350px;
+  padding-bottom: 15px;
+}
+
+.card-peintres h3 {
+  padding-top: 15px;
+}
+
+#footer {
+  background:#333;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 32px;
+}
+#footer a:hover {
+  color: white;
+}
